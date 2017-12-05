@@ -1,0 +1,221 @@
+/* =============
+   Core Styles
+   ============= */
+* {
+  box-sizing: border-box;
+}
+body {
+    font-weight: normal;
+    font-family: Mitr;
+}
+
+/* =============
+   Hover Styles
+   ============= */
+.navbar-inverse h1:hover,
+.carousel-inner .item a:hover {
+    color: rgb(255,225,46);
+    border: 5px solid rgb(255,225,46);
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: rgb(255,225,46);
+}
+
+.link-animate:hover::after {
+  width: 100%;
+}
+
+#about-team .thumbnail > img:hover {
+	transform: scale(1.05);
+	box-shadow: 3px 4px 6px #222;
+}
+
+.copyright span:hover {
+  border: 2px solid rgb(255,225,46);
+}
+.copyright a:hover {
+  color: rgb(255,225,46);
+}
+
+/* ======================
+   Header / Navbar Styles
+   ====================== */
+.navbar-inverse {
+    background: rgb(51, 122, 183);
+}
+
+/* NAVBAR BRAND */
+.navbar-inverse a {
+    text-decoration: none;
+}
+.navbar-inverse h1 {
+    margin: 0.1em auto;
+    font: bold 4em;
+    color: #FFF;
+    width:  100px;
+    border: 5px solid #FFF;
+    transition: all 0.5s ease;
+}
+
+/* NAVBAR ITEMS */
+.navbar-inverse .navbar-nav > li > a {
+    color: #FFF;
+    transition: all 1s ease;
+}
+.navbar-nav li > a {
+    font-size: 1.5em;
+}
+
+.link-animate::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: rgb(255,225,46);
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+/* CENTERS THE NAVBAR HEADER */
+@media screen and (min-width: 768px) {
+    .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-nav li {
+        display: inline-block;
+        float: none;
+    }
+}
+
+/* =========================
+        Footer and Newsletter 
+   ========================= */
+#main-footer {
+    position: relative;
+    bottom: 0;
+    height: 80px;
+    padding: 2em;
+    background: rgb(51, 122, 183);
+    color: #FFF;
+}
+
+#main-footer a,
+#main-footer a:nth-child(2) {
+    color: #FFF;
+    text-decoration: none;
+    border: 3px solid #FFF;
+    padding: 0.2em;
+    transition: all 0.5s ease;
+}
+
+#main-footer a:nth-child(2) {
+  width: 15%;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+#main-footer a:nth-child(3) {
+width: 15%;
+position: absolute;
+right: 12em;
+bottom: 1em;
+}
+
+/* =========================
+        About Team Section 
+   ========================= */
+#about-team {
+	padding: 1em 0;
+}
+
+#about-team h1 {
+    padding: 0.4em;
+   margin-bottom: 0.8em;
+   color: #222;
+}
+
+#about-team span {
+	border: 3px solid rgb(255,162,47);
+	padding: 0.2em;
+	color: rgb(255,162,47);
+}
+
+#about-team .thumbnail > img {  
+ transition: all 0.5s ease;
+}
+
+/* =========================
+        Modal Styles
+   ========================= */
+#contacts {
+    font-family: Helvetica;
+}
+#contacts .modal-header > h1 {
+ font-weight: bold;
+ font-size: 3em;
+}
+#contacts .modal-footer > h4 {
+  font-weight: bold;
+  font-size: 2em;
+}
+#contacts i,
+#newsletter i {
+ color: #FFF;
+}
+
+#contacts .modal-dialog,
+#newsletter .modal-dialog {
+border: 5px solid #222;
+font-weight: medium;
+color: #FFF;
+box-shadow: 3px 4px 1px #FFF; 
+}
+#contacts .modal-content,
+#newsletter .modal-content {
+ background: rgba(255,162,47,0.9);
+ border-radius: 0px;
+}
+#contacts .modal-body {
+ font-size: 2em;
+}
+
+/* =========================
+        Footer Styles
+   ========================= */
+.footer1 {
+    background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+  padding: 40px 0 20px 0;
+}
+
+.footer-bottom {
+    background-color: #15224f;
+    min-height: 50px;
+    width: 100%;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 1em 0;
+}
+.copyright span {
+  border: 2px solid #FFF;
+  padding: 0.2em;
+  transition: all 1s ease;
+}
+.copyright a {
+  color: #FFF;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+.design {
+    color: #fff;
+    padding: 1.2em 0;
+}
+
+.design a {
+  color: #FFF;
+}

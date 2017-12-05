@@ -1,0 +1,86 @@
+/*SMARTPHONE*/
+@media only screen and (max-width: 390px) {
+.navbar-inverse h1 {
+	position: relative;
+	top: 1em;
+}
+}
+
+@media only screen and (max-width: 550px) {
+	#about-faqs h1 {
+		font-size: 1em;
+	}
+}
+
+/*TABLET*/
+@media only screen and (max-width: 764px) {
+	.navbar-inverse h1 {
+	position: relative;
+	top: 1em;
+}
+#page-about h1,
+#page-work h1,
+#campaigns h1,
+#page-events h1,
+#sites h1 {
+  border: 5px solid #222;
+  padding: 0.2em;
+  margin: 0.6em auto;
+  width: 80%;
+  font-size: 2em;
+  font-weight: medium;
+  color: #222;
+  box-shadow: 3px 4px 1px rgb(255,162,47); 
+}
+
+.carousel-caption {
+  padding-bottom: 40px;
+}
+.carousel-caption h3 {
+		font-size: 2.5em;
+}
+.carousel-caption p {
+	font-size: 1em;
+}
+.carousel-inner .item a {
+ color: #FFF;
+ font-size: 1.2em;
+ float: left;
+ margin-top: 20px;
+ background: transparent;
+ border: 2px solid #FFF;
+ border-radius: 0;
+ transition: all 0.5s ease;
+}
+
+.carousel-inner .item a:hover {
+	color: rgb(255,225,46);
+ border: 2px solid rgb(255,225,46)
+}
+
+}
+
+@media only screen and (max-width: 880px) {
+.navbar-nav li > a {
+    font-size: 1.2em;
+}
+
+.carousel-caption {
+	padding-bottom: 60px;
+}
+
+}
+
+@media only screen and (max-width: 982px) {
+	#page-logo .caption > h3 {
+   font-size: 2em;
+  font-weight: medium;
+}
+}
+
+@media only screen and (max-width: 1200px) {
+	#about-faqs h1,
+	#about-faqs h1:nth-child(2) {
+		font-size: 3em;
+	}
+}
